@@ -7,21 +7,21 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    
     steps:
 
-      - name: Checkout Respository
-        uses: actions/checkout@v2
+    - name: Checkout Respository
+      uses: actions/checkout@v2
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16.x'
-          registry-url: 'https://registry.npmjs.org'
-          # Defaults to the user or organization that owns the workflow file
-          scope: '@amnis'
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16.x'
+        registry-url: 'https://registry.npmjs.org'
+        scope: '@amnis'
 
-      - name: Publish ESLint Config Node
-        working-directory: amnis-eslint-config-node
-        run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - name: Publish ESLint Config Node
+      working-directory: amnis-eslint-config-node
+      run: yarn publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
