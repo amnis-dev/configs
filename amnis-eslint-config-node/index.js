@@ -21,6 +21,7 @@ module.exports = {
     semi: ['error', 'always'],
     quotes: ['error', 'single'],
     indent: 0,
+    'no-param-reassign': ['error', { props: false }],
     'no-console': ['error', { allow: ['warn', 'error', 'log'] }],
     'object-curly-spacing': ['error', 'always'],
     'space-before-blocks': ['error', 'always'],
