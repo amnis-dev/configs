@@ -1,0 +1,16 @@
+{
+  "name": "@amnis/configs",
+  "version": "1.0.0",
+  "description": "Common configurations for Amnis projects.",
+  "main": "index.js",
+  "repository": "git@github.com:amnis-dev/configs.git",
+  "author": "eCrowDev <eric.crowell@ecrow.dev>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "amnis-eslint-config-node"
+  ],
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
