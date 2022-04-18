@@ -31,3 +31,15 @@ jobs:
       run: yarn publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+    - name: Publish TSConfig Node
+      working-directory: amnis-tsconfig-node
+      run: yarn publish --access public
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+    - name: Publish TSConfig React
+      working-directory: amnis-tsconfig-react
+      run: yarn publish --access public
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
