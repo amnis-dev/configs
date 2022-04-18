@@ -7,24 +7,56 @@ Common ESLint configurations for Amnis projects.
 Install the configuration appropriate for the type of project.
 ### Node Project
 
-ESLint Configurations for a NodeJS application.
+Install configurations for a NodeJS application.
 
 ```sh
 # NPM
-npm install -D @amnis/eslint-config-node
+npm install -D @amnis/tsconfig-node @amnis/eslint-config-node
 
 # Yarn
-yarn add -D @amnis/eslint-config-node
+yarn add -D @amnis/tsconfig-node @amnis/eslint-config-node
+```
+
+Extend in `.eslintrc.json/js`.
+
+```json
+{
+  "extends": "@amnis/eslint-config-node"
+}
+```
+
+Extend in `tsconfig.json`.
+
+```json
+{
+  "extends": "@amnis/tsconfig-node"
+}
 ```
 
 ### React Project
 
-ESLint Configurations for a React application.
+Install configurations for a React application.
 
 ```sh
 # NPM
-npm install -D @amnis/eslint-config-react
+npm install -D @amnis/tsconfig-react @amnis/eslint-config-react
 
 # Yarn
-yarn add -D @amnis/eslint-config-react
+yarn add -D @amnis/tsconfig-react @amnis/eslint-config-react
+```
+
+Extend in `.eslintrc.json/js`.
+
+```json
+{
+  "extends": "@amnis/eslint-config-react"
+}
+```
+
+Extend in `tsconfig.json`.
+
+```json
+{
+  "extends": "@amnis/tsconfig-react"
+}
 ```
