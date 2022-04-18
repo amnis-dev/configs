@@ -23,5 +23,6 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "experimentalDecorators": true,
+    "types": ["node", "react", "jest"]
   }
 }
