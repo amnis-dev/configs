@@ -27,6 +27,9 @@ module.exports = {
     'space-before-blocks': ['error', 'always'],
     '@typescript-eslint/indent': ['error', 2],
     'no-plusplus': 0,
+    'import/no-extraneous-dependencies': [0, {
+      devDependencies: ['**/*.test.js', '**/*.stories.js'],
+    }],
     'import/extensions': [
       'error', 'ignorePackages',
       {
