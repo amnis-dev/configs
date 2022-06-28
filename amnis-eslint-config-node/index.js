@@ -39,6 +39,8 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'import/named': 'off',
+    'import/no-cycle': 'off',
   },
   settings: {
     'import/parsers': {
