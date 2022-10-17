@@ -1,6 +1,5 @@
 module.exports = {
   env: {
-    browser: true,
     es2021: true,
   },
   extends: [
@@ -14,7 +13,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 'latest',
+    ecmaVersion: 2021,
     sourceType: 'module',
     tsconfigRootDir: './',
   },
@@ -82,5 +81,5 @@ module.exports = {
         jest: true,
       },
     },
-  ],
+  ]
 };
