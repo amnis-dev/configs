@@ -3,7 +3,7 @@
     "lib": ["es2022"],
     "target": "ES6",
     "module": "ES2022",
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true,
