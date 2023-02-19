@@ -6,6 +6,7 @@ module.exports = {
     'airbnb-base',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:require-extensions/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -25,6 +26,13 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     'space-before-blocks': ['error', 'always'],
     '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        prefer: 'type-imports',
+        disallowTypeAnnotations: false,
+      },
+    ],
     'no-plusplus': 0,
     'import/no-extraneous-dependencies': [0, {
       devDependencies: ['**/*.test.js', '**/*.stories.js'],

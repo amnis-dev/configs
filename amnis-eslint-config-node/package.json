@@ -1,6 +1,6 @@
 {
   "name": "@amnis/eslint-config-node",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Amnis configuration for NodeJS applications.",
   "main": "index.cjs",
   "repository": {
@@ -19,6 +19,7 @@
     "@typescript-eslint/parser": "^5.18.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-typescript": "^2.7.1",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-require-extensions": "^0.1.2"
   }
 }

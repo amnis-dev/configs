@@ -7,6 +7,7 @@ module.exports = {
     'airbnb',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:require-extensions/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -28,6 +29,13 @@ module.exports = {
     indent: 0,
     'no-param-reassign': ['error', { props: false }],
     '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      {
+        prefer: 'type-imports',
+        disallowTypeAnnotations: false,
+      },
+    ],
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
     'react/prop-types': 0,
     'react/require-default-props': 0,
