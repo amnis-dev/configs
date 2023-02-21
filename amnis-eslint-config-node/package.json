@@ -1,6 +1,6 @@
 {
   "name": "@amnis/eslint-config-node",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Amnis configuration for NodeJS applications.",
   "main": "index.cjs",
   "repository": {

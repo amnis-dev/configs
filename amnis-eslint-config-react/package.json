@@ -1,6 +1,6 @@
 {
   "name": "@amnis/eslint-config-react",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Amnis configuration for React applications.",
   "main": "index.cjs",
   "repository": {

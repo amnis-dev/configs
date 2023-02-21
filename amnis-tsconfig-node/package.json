@@ -1,6 +1,6 @@
 {
   "name": "@amnis/tsconfig-node",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Amnis TypeScript configuration for Node applications.",
   "main": "tsconfig.json",
   "files": [
