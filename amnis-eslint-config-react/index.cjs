@@ -59,7 +59,13 @@ module.exports = {
       },
     ],
     'import/named': 'off',
-    'import/no-cycle': 'off',
+    'import/no-cycle': [
+      'error',
+      {
+        maxDepth: 10,
+        ignoreExternal: true,
+      },
+    ],
   },
   settings: {
     'import/resolver': {
