@@ -43,6 +43,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [0, {
       devDependencies: ['**/*.test.js', '**/*.stories.js'],
     }],
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': [1, {
       html: 'enforce',
       custom: 'ignore',
@@ -59,6 +60,7 @@ module.exports = {
       },
     ],
     'import/named': 'off',
+    'import/no-unresolved': 'off',
     'import/no-cycle': [
       'error',
       {
