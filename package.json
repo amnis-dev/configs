@@ -1,6 +1,6 @@
 {
   "name": "@amnis/configs",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "Common configurations for Amnis projects.",
   "main": "index.js",
   "repository": "git@github.com:amnis-dev/configs.git",
@@ -17,7 +17,7 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "eslint": "^8.13.0",
+    "eslint": "^8.43.0",
     "standard-version": "^9.5.0"
   }
 }

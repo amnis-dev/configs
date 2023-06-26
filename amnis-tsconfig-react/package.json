@@ -1,6 +1,6 @@
 {
   "name": "@amnis/tsconfig-react",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "Amnis TypeScript configuration for React applications.",
   "main": "tsconfig.json",
   "files": [
